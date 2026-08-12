@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bima Sangkur — web developer portfolio concept page, built to demonstrate design and front-end development skills. Stats and testimonials shown are illustrative, not real client data.">
+<title>Bima Sangkur — Web Developer (Portfolio Concept)</title>
+<script>
+  document.documentElement.classList.add('js');
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..900&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top" class="logo">Bima Sangkur</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary btn-small nav-cta">Start a Project</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">Web Development</span>
+          <h1>Websites that make your business look <span class="text-accent">expensive.</span></h1>
+          <p class="hero-desc">
+            Bima Sangkur designs and builds websites that are fast, modern, and built to sell —
+            not just look good in a portfolio.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">See My Work</a>
+            <a href="#contact" class="btn btn-outline">Get a Free Consult</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust-item">
+              <strong>120+</strong>
+              <span>Projects shipped</span>
+            </div>
+            <div class="trust-item">
+              <strong>98%</strong>
+              <span>Client satisfaction</span>
+            </div>
+            <div class="trust-item">
+              <strong>5+</strong>
+              <span>Years in business</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mockup">
+            <div class="mockup-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-nav">
+                <div class="mockup-logo"></div>
+                <div class="mockup-nav-links">
+                  <div class="mockup-pill"></div>
+                  <div class="mockup-pill"></div>
+                  <div class="mockup-pill"></div>
+                </div>
+              </div>
+              <div class="mockup-hero">
+                <div class="mockup-line mockup-line-lg"></div>
+                <div class="mockup-line mockup-line-md"></div>
+                <div class="mockup-btn"></div>
+              </div>
+              <div class="mockup-cards">
+                <div class="mockup-card"></div>
+                <div class="mockup-card"></div>
+                <div class="mockup-card"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-tag">Live</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num" aria-hidden="true">01</span>
+          <div>
+            <h2>Everything your business needs to show up online</h2>
+            <p>From first sketch to a live site, handled start to finish by one person.</p>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="1"/><path d="M8 21h8M12 18v3"/></svg>
+            </span>
+            <h3>UI/UX Design</h3>
+            <p>Interfaces people enjoy using, based on how they actually behave, not just what looks nice on a mockup.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M13 5l-2 14"/></svg>
+            </span>
+            <h3>Frontend Development</h3>
+            <p>Fast, responsive interfaces on every device, written clean enough that it's easy to extend later.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+            </span>
+            <h3>Backend Development</h3>
+            <p>The systems behind the scenes: databases, authentication, and payment integrations, built to hold up.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h8l-1 8 10-12h-8z"/></svg>
+            </span>
+            <h3>Performance &amp; SEO</h3>
+            <p>Pages that load fast and are easy for Google to find in the first place.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+            </span>
+            <h3>Integrations &amp; APIs</h3>
+            <p>Connect your site to the tools you already run on: CRM, payments, WhatsApp, and more.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg>
+            </span>
+            <h3>Maintenance &amp; Support</h3>
+            <p>Once your site is live, I stay on for updates, fixes, and the questions that come up later.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num" aria-hidden="true">02</span>
+          <div>
+            <h2>Four steps from idea to a live website</h2>
+          </div>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-step reveal">
+            <span class="process-num">01</span>
+            <h3>Research &amp; Strategy</h3>
+            <p>I learn your business and your users before I open a design file.</p>
+          </div>
+          <div class="process-step reveal">
+            <span class="process-num">02</span>
+            <h3>Design</h3>
+            <p>Visuals and page flow, reviewed with you before development starts.</p>
+          </div>
+          <div class="process-step reveal">
+            <span class="process-num">03</span>
+            <h3>Development</h3>
+            <p>The design becomes a real, working website, built and tested end to end.</p>
+          </div>
+          <div class="process-step reveal">
+            <span class="process-num">04</span>
+            <h3>Launch &amp; Support</h3>
+            <p>Your site goes live, and I stay on the line after it does.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section reveal" id="stats">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="120" data-suffix="+">0</span>
+          <span class="stat-label">Projects shipped</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98" data-suffix="%">0</span>
+          <span class="stat-label">Client satisfaction</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="40" data-suffix="+">0</span>
+          <span class="stat-label">Active clients</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="5" data-suffix="+">0</span>
+          <span class="stat-label">Years in business</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num" aria-hidden="true">03</span>
+          <div>
+            <h2>A few projects I've shipped</h2>
+            <p>Examples across different kinds of businesses, from online stores to SaaS products.</p>
+          </div>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <div class="work-thumb work-thumb-dark">
+              <span class="work-mark" aria-hidden="true">N</span>
+              <div class="work-overlay">
+                <span class="btn btn-small btn-light">View Case</span>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>Nimbus</h3>
+              <span class="work-tag">E-commerce</span>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-thumb work-thumb-accent">
+              <span class="work-mark" aria-hidden="true">V</span>
+              <div class="work-overlay">
+                <span class="btn btn-small btn-light">View Case</span>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>Verve</h3>
+              <span class="work-tag">SaaS Dashboard</span>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-thumb work-thumb-light">
+              <span class="work-mark" aria-hidden="true">O</span>
+              <div class="work-overlay">
+                <span class="btn btn-small btn-light">View Case</span>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>Orbit</h3>
+              <span class="work-tag">Startup Landing Page</span>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-thumb work-thumb-dark">
+              <span class="work-mark" aria-hidden="true">S</span>
+              <div class="work-overlay">
+                <span class="btn btn-small btn-light">View Case</span>
+              </div>
+            </div>
+            <div class="work-info">
+              <h3>Solace</h3>
+              <span class="work-tag">Personal Portfolio</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num" aria-hidden="true">04</span>
+          <div>
+            <h2>What clients say after working with me</h2>
+          </div>
+        </div>
+
+        <div class="testi-grid">
+          <article class="testi-card reveal">
+            <div class="testi-stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+            </div>
+            <p>"The process was clear from day one. Our site is faster now and actually works well on phones."</p>
+            <div class="testi-person">
+              <span class="testi-avatar">RA</span>
+              <div>
+                <strong>Rina A.</strong>
+                <span>Owner, Bloom &amp; Co.</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card reveal">
+            <div class="testi-stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+            </div>
+            <p>"Bima pushed back on our checkout flow instead of just making it prettier. Conversions went up after launch."</p>
+            <div class="testi-person">
+              <span class="testi-avatar">DP</span>
+              <div>
+                <strong>Dimas P.</strong>
+                <span>Founder, Verve Analytics</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card reveal">
+            <div class="testi-stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg>
+            </div>
+            <p>"Easy to reach, fast on revisions. What we got back was better than what we asked for."</p>
+            <div class="testi-person">
+              <span class="testi-avatar">SN</span>
+              <div>
+                <strong>Sari N.</strong>
+                <span>Marketing Lead, Orbit</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num" aria-hidden="true">05</span>
+          <div>
+            <h2>Clear packages, no hidden costs</h2>
+            <p>Pick what fits. Every package includes full design and development.</p>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal">
+            <h3>Starter</h3>
+            <p class="price-desc">For businesses just getting started online.</p>
+            <div class="price-value"><span class="price-currency">$</span>2,500<span class="price-unit">+</span></div>
+            <ul class="price-features">
+              <li>1-page landing site</li>
+              <li>Responsive design</li>
+              <li>Contact form</li>
+              <li>1 round of revisions</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-full">Choose Starter</a>
+          </article>
+
+          <article class="price-card price-card-popular reveal">
+            <span class="price-badge">Most Popular</span>
+            <h3>Growth</h3>
+            <p class="price-desc">For businesses ready to grow further.</p>
+            <div class="price-value"><span class="price-currency">$</span>7,500<span class="price-unit">+</span></div>
+            <ul class="price-features">
+              <li>Up to 6 pages</li>
+              <li>Custom UI/UX design</li>
+              <li>Basic SEO setup</li>
+              <li>WhatsApp/CRM integration</li>
+              <li>3 rounds of revisions</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-full">Choose Growth</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Enterprise</h3>
+            <p class="price-desc">For bigger systems and more moving parts.</p>
+            <div class="price-value price-value-custom">Custom</div>
+            <ul class="price-features">
+              <li>Complex website or web app</li>
+              <li>Custom backend &amp; integrations</li>
+              <li>Priority support</li>
+              <li>Revisions by agreement</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-full">Talk to Us</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head reveal">
+          <span class="section-num" aria-hidden="true">06</span>
+          <div>
+            <h2>Questions people usually ask</h2>
+          </div>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How long does a project take?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>It depends on scope. A simple landing page usually takes 1-2 weeks, a multi-page site closer to 3-5.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you offer revisions?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Each package includes a set number of rounds. Anything beyond that, I'll scope separately.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How does payment work?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Usually split in two: a deposit to start the project, the rest due when the site goes live.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I get something outside these packages?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sure. Tell us what you need in a free consult and we'll put together a proposal that fits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner reveal" id="contact">
+      <div class="container cta-inner">
+        <h2>Ready to make your business look like it means business?</h2>
+        <p>First consult is free, no strings attached.</p>
+        <a href="https://linkedin.com/in/bima-sangkur-4a63943b9/" target="_blank" rel="noopener" class="btn btn-light">Start a Conversation</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo">Bima Sangkur</a>
+        <p>Freelance web developer building fast, modern websites for small businesses.</p>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <h4>Navigation</h4>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#work">Work</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="https://github.com/bimasangku6-jpg" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/bima-sangkur-4a63943b9/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="footer-social" aria-label="Social links">
+        <a href="https://github.com/bimasangku6-jpg" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.1.68-.22.68-.5v-1.75c-2.78.62-3.37-1.36-3.37-1.36-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.82c0 .28.18.6.69.5A10.03 10.03 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/bima-sangkur-4a63943b9/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M11 17v-4.5c0-1.4 1-2.5 2.5-2.5s2.5 1.1 2.5 2.5V17"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Bima Sangkur. Portfolio concept page — the stats, testimonials, and pricing shown are illustrative examples, not real client data.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
