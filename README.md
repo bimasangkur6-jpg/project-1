@@ -4,7 +4,7 @@ A personal portfolio landing page built to demonstrate design and front-end deve
 
 ## Demo
 
-Add the live demo link here once deployed.
+https://bimasangkur6-jpg.github.io/project-1/
 
 ## Tech Stack
 
