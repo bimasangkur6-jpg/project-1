@@ -28,6 +28,3 @@ No build step, no dependencies to install. Open `index.html` in a browser.
 
 The projects, stats, testimonials, and pricing shown on this page are illustrative examples for demo purposes, not real client work or figures.
 
-## License
-
-MIT
